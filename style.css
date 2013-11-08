@@ -1,4 +1,4 @@
-ul {
+ul.ssaccordion {
 	float: left;
 	z-index: 101;
 	width: 280px;
@@ -6,7 +6,7 @@ ul {
 	margin: 0 0 50px 0;
 }
 
-ul li {
+ul.ssaccordion li {
 	list-style-type: none;
 	width: 260px;
 	min-height: 40px;
@@ -17,14 +17,14 @@ ul li {
 	color: white;
 }
 
-ul li a {
+ul.ssaccordion li a {
 	font-size: 16px;
 	line-height: 40px;
 	color: white;
 	text-decoration: none;
 }
 
-ul li ul.accordion {
+ul.ssaccordion li ul.accordion {
 	float: left;
 	z-index: 99;
 	width: 280px;
@@ -32,7 +32,7 @@ ul li ul.accordion {
 	margin: 0 0 0 -20px;
 }
 				
-ul li ul.accordion li {
+ul.ssaccordion li ul.accordion li {
 	list-style-type: none;
 	width: 240px;
 	min-height: 40px;
@@ -40,7 +40,7 @@ ul li ul.accordion li {
 	padding: 0 0 0 40px;
 }
 
-ul li ul.accordion li a {
+ul.ssaccordion li ul.accordion li a {
 	font-size: 16px;
 	line-height: 40px;
 	color: white;
